@@ -1,0 +1,15 @@
+import React, { useState, useEffect } from 'react'
+
+const Airlines = () => {
+    const [airlines, setAirlines] = useState([])
+
+    useEffect(() => {
+        // Get all of our airlines from api
+        // Update airlines in our state
+    })
+    return (
+        <div>index view</div>
+    )
+}
+
+export default Airlines
